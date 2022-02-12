@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&family=Roboto:wght@300;400;700&display=swap');
+/* body */
+body{
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+header h2{
+    margin: 0 80px;
+    padding: 50px;
+    color: #3a3a3a;
+    
+}
+.container{
+    display: flex;
+    margin: 0 80px;
+    padding: 50px;
+}
+
+.banner_titel{
+    font-size: 50px;
+}
+
+.banner_left{
+    color: #3a3a3a;
+}
+
+.anathar_btn{
+    text-decoration: none;
+    background-color: #e02c6d;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius:10px ;
+    font-weight: 700;
+}
+.head_titel{
+    text-align: center;
+    color: #3a3a3a;
+}
