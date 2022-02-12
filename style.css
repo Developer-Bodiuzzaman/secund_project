@@ -93,6 +93,17 @@ header h2{
     font-size: 35px;
 }
 
+.dslr_camera{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 150px;
+    width: 100%;
+}
+
+.half_width{
+    width: 50%;
+}
+
 /* Footer */
 .banner_bottom{
     text-align: center;
