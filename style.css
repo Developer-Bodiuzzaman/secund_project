@@ -34,7 +34,7 @@ header h2{
     background-color: #e02c6d;
     color: #fff;
     padding: 10px 20px;
-    border-radius:10px ;
+    border-radius:25px ;
     font-weight: 700;
 }
 .head_titel{
@@ -42,10 +42,17 @@ header h2{
     color: #3a3a3a;
 }
 
+.all_color{
+    color: #272626;
+}
+
 .Popular{
     margin: 150px;
 }
 
+.prodact_info h3{
+    font-size: 30px;
+}
 
 .prodacts{
     display: grid;
