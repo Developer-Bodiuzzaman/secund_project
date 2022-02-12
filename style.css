@@ -12,7 +12,7 @@ header h2{
     color: #3a3a3a;
     
 }
-.container{
+.banner{
     display: flex;
     margin: 0 80px;
     padding: 50px;
@@ -37,4 +37,30 @@ header h2{
 .head_titel{
     text-align: center;
     color: #3a3a3a;
+}
+
+.Popular{
+    margin: 150px;
+}
+
+
+.prodacts{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+    margin: 50px 150px;
+    
+}
+
+.prodact{
+    width: 330px;
+    height: 450px;
+    box-shadow: 0px 0px 40px #ddd;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.prodact_img img{
+    width: 100%;
+    border-radius: 10px;
 }
