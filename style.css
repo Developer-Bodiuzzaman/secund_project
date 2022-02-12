@@ -70,8 +70,9 @@ header h2{
 
 .btn_two{
     text-align: right;
-    text-decoration: underline overline;
-    margin: 50px 150px;
+    text-decoration: none;
+    color:#e02c6d;
+    margin: 50px 100px;
 }
 
 .another_banner{
@@ -82,5 +83,13 @@ header h2{
 }
 
 .header_one{
-    font-size: 35px;  
+    font-size: 35px;
+}
+
+/* Footer */
+.banner_bottom{
+    text-align: center;
+    background-color: #0a0826;
+    color: #fff;
+    padding: 50px;
 }
