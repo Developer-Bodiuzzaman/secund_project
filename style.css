@@ -10,19 +10,22 @@ header h2{
     margin: 0 80px;
     padding: 50px;
     color: #3a3a3a;
-    
+    font-size: 30px;
 }
 .banner{
     display: flex;
     margin: 0 80px;
     padding: 50px;
+    width: 100%;
 }
+
 
 .banner_titel{
     font-size: 50px;
+    color: #3a3a3a;
 }
 
-.banner_left{
+.paragraph{
     color: #3a3a3a;
 }
 
@@ -63,4 +66,21 @@ header h2{
 .prodact_img img{
     width: 100%;
     border-radius: 10px;
+}
+
+.btn_two{
+    text-align: right;
+    text-decoration: underline overline;
+    margin: 50px 150px;
+}
+
+.another_banner{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 150px;
+    
+}
+
+.header_one{
+    font-size: 35px;  
 }
