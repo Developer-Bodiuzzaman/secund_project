@@ -85,8 +85,7 @@ header h2{
 .another_banner{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    margin: 150px;
-    
+    margin: 150px;  
 }
 
 .header_one{
@@ -151,7 +150,6 @@ header h2{
         padding: 5px 4px;
         font-size: 10px;
         border-radius:20px ;
-        
     }
 
     .prodacts{
@@ -176,7 +174,6 @@ header h2{
     }
     
     .banner_info{
-        
         margin: 10px;
     }
 
