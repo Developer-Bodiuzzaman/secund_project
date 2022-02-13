@@ -78,7 +78,7 @@ header h2{
 .btn_two{
     text-align: right;
     text-decoration: none;
-    color:#e02c6d;
+    color: #3a3a3a;
     margin: 50px 100px;
 }
 
@@ -100,9 +100,6 @@ header h2{
     width: 100%;
 }
 
-.half_width{
-    width: 50%;
-}
 
 /* Footer */
 .banner_bottom{
@@ -110,4 +107,91 @@ header h2{
     background-color: #0a0826;
     color: #fff;
     padding: 50px;
+}
+
+.banner_logo{
+    text-align: center;
+}
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+    body{
+        margin: auto;
+        
+        padding: 0 auto;
+    }
+
+    header h2{
+        margin:  5px;
+        font-size: 15px;
+    }
+
+    .container{
+        width: 80%;
+    }
+    .banner{
+        margin:  0 auto;
+        padding: 0;
+        width: 250px;
+    }
+    .banner_image img{
+        width: 200px;
+    }
+    .banner_titel{
+        font-size: 20px;
+    }
+    .banner_right img{
+        width: 150px;
+        padding: 10px;
+        margin: 10px;
+    }
+    .anathar_btn{
+        left: 0px;
+        padding: 8px 4px;
+        border-radius:20px ;
+        font-size: small;
+    }
+
+    .prodacts{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 10px;
+        margin: 10px 10px;   
+    }
+
+    .btn_two{
+        text-align: right;
+        text-decoration: none;
+        margin: 10px 20px;
+        font-size: 10px;
+        }
+
+    .another_banner{
+        grid-template-columns: repeat(2,1fr);
+        margin: 8px;
+        padding: 10px;
+        width: 100%; 
+    }
+    
+    .banner_info{
+        
+        margin: 10px;
+    }
+
+    .header_one{
+        font-size: 15px;
+    }
+    .paragraph
+    {
+        font-size: 12px;
+    }
+    .dslr_camera{
+        grid-template-columns: repeat(2,1fr);
+        margin: 8px auto;
+        padding: 10px;
+        width: 100%;
+    }
+    .half_width img{
+        width: 50%;
+    }
 }
