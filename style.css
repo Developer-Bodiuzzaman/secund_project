@@ -113,11 +113,12 @@ header h2{
     text-align: center;
 }
 
+/* Mobile Device */
+
 
 @media (min-width: 320px) and (max-width: 480px) {
     body{
         margin: auto;
-        
         padding: 0 auto;
     }
 
@@ -147,9 +148,10 @@ header h2{
     }
     .anathar_btn{
         left: 0px;
-        padding: 8px 4px;
+        padding: 5px 4px;
+        font-size: 10px;
         border-radius:20px ;
-        font-size: small;
+        
     }
 
     .prodacts{
